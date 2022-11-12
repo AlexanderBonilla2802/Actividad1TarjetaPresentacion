@@ -1,0 +1,49 @@
+body{
+    background: #ebebeb;
+}
+
+div#contenedortarjeta{
+    border: solid 1px black;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    height: 500px;
+    width: 480px;
+    background-image: url(./imagenes/Facilitador.jpg);
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+.foto{
+    width: 480px;
+    height: 500px;
+    position: absolute;
+}
+
+p.contenido {
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5.datos {
+    font-size: 14px;
+    color: white;
+    font-style: italic;
+    background: grey;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3.nombre {
+    font-size: 25px;
+    background: tomato;
+    text-align: center;
+}
+
+a{
+    color: white;
+    position: relative;
+    left: calc(100% - 330px);
+}
+
